@@ -8,6 +8,7 @@ Python script for uploading to a file to a tus server and a python hook script t
 
 ### authentication hook
 - copy pre_create_hook.py to tus server install dir under the specified hooks directory. See https://github.com/tus/tusd/blob/master/docs/hooks.md#the-hook-directory
+- Important: After copying pre_create_hook.py to the hooks directory it should be renamed to "precreate". eg. cp pre_create_hook.py ~/thehookdirectory/precreate
 
 
 ### Usage
